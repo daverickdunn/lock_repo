@@ -9,6 +9,7 @@
     "watch": "tsc -w",
     "test": "jest",
     "cdk": "cdk",
+    "deploy-all": "cdk deploy",
     "deploy-vpc": "cdk deploy vpc-stack",
     "deploy-db": "cdk deploy db-stack",
     "deploy-etl": "cdk deploy etl-stack"
