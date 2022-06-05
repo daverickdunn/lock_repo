@@ -15,7 +15,7 @@
 - `npm run deploy-vpc`
 - Deploy DB stack
 - `npm run deploy-db`
-
+- Implement ETL stack
 - `npm i @aws-sdk/client-dynamodb @aws-sdk/client-sqs aws-lambda`
 - Deploy Etl stack
 - `npm run deploy-etl`
