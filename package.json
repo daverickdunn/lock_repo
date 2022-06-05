@@ -8,7 +8,10 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "deploy-vpc": "cdk deploy vpc-stack",
+    "deploy-db": "cdk deploy db-stack",
+    "deploy-etl": "cdk deploy etl-stack"
   },
   "devDependencies": {
     "@types/jest": "^27.5.0",
